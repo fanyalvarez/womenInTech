@@ -1,0 +1,23 @@
+body{
+    background-color:steelblue;
+}
+
+h1{
+    font-size: 36px;
+   text-align: center;
+}
+li{
+    font-size: 16px;
+}
+
+div{
+    width: 50%;
+    margin: auto;
+}
+
+button{
+    background-color: rgb(60, 67, 73);
+    color: azure;
+    font-size: 14px;
+    cursor: pointer;
+}
