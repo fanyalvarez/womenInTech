@@ -6,6 +6,7 @@ h1{
     font-size: 36px;
    text-align: center;
 }
+
 li{
     font-size: 16px;
 }
@@ -16,8 +17,9 @@ div{
 }
 
 button{
-    background-color: rgb(60, 67, 73);
+    background-color: rgb(46, 91, 131);
     color: azure;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
+    border-radius: 8%;
 }
