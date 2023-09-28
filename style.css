@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-image: url(./1234.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    color: #847448;
+    font-size: 3rem;
+    text-shadow: 2px -3px 4px rgba(87, 99, 64, 0.3);
+}
+
+main {
+    width: 60rem;
+    /* background-color: aquamarine; */
+    margin: 3rem
+}
+
+button {
+    font-size: 1rem;
+    padding: .8rem .5rem ;
+    border-radius: 5%;
+    background-color: #947c38;
+    color: bisque;
+    margin: 1rem ;
+    cursor: pointer;
+}
