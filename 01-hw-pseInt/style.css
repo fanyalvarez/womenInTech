@@ -1,25 +1,31 @@
 body{
-    background-color:steelblue;
+    background-image: url(/01-hw-pseInt/334.jpg);
 }
 
 h1{
-    font-size: 36px;
-   text-align: center;
+    font-size: 3rem;
+    text-align: center;
 }
 
 li{
-    font-size: 16px;
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
 }
 
 div{
     width: 50%;
+    padding: 2rem;
     margin: auto;
+    color: rgb(219, 177, 113);
+    background-color:rgb(41, 90, 130);
 }
 
 button{
-    background-color: rgb(46, 91, 131);
-    color: azure;
-    font-size: 12px;
+    background-color: rgb(37, 103, 160);
+    color:bisque;
+    font-size: .8rem;
     cursor: pointer;
-    border-radius: 8%;
+    border-radius: 5%;
+    padding: .5rem 1rem;
+
 }
