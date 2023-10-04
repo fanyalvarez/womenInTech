@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('../styleStatic.css');
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+section .serch {
+    margin: 1rem auto;
+    display: flex;
+}
+
+section .serch span {
+    background-color: #eacece;
+    padding: .3rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+section .serch span input {
+    background-color: transparent;
+    margin-left: 0.2rem;
+    border: none;
+    outline: none;
+}
+
+section .serch select {
+    background-color: #eacece;
+    padding: .45rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+
+
+/* ///-//-------table--------///// */
+section table {
+    margin: 2rem auto;
+    width: 80rem;
+    white-space: pre-wrap;
+    border-radius: 10px 10px 0 0;
+}
+
+section table thead th {
+    border-radius: 10px 10px 0 0;
+    background-color: #d0869d;
+}
+
+section table tbody {
+    background-color: #eacece;
+
+}
+
+section table tbody td {
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+i {
+    padding-right: 1rem;
+}
+
+button {
+    color: #fdf3f3;
+    background-color: #d0869d;
+    padding: .3rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 0 #d0869d, 2px 4px 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 160, 160, 0.2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px rgb(177, 115, 177);
+}
+
+.name {
+    width: 15rem;
+}
+
+.desc {
+    width: 35rem;
+}
+
+.addres {
+    width: 35rem;
+}
+
+.safe {
+    width: 10rem;
+}
+
+.see {
+    width: 10rem;
+}
