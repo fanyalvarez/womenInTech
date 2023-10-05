@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('../styleStatic.css');
+
+section .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #f7eaea;
+    width: 40rem;
+    margin: 3rem auto;
+    padding: 3rem;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    border: .5rem solid #d0869d;;
+}
+
+.content {
+    text-align: center;
+    padding: 1rem;
+}
+
+.content div:first-child{
+    display:flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.content i{
+    margin-right: .5rem;
+}
+
+
+.comments{
+    margin: 1rem;
+}
+
+
+.comments li{
+    padding-bottom: 1rem;
+}

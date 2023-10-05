@@ -14,7 +14,7 @@ section .serch {
 }
 
 section .serch span {
-    background-color: #eacece;
+    background-color:  #f8dbdb;
     padding: .3rem;
     border-radius: 10px;
     margin-right: 2rem;
@@ -28,7 +28,7 @@ section .serch span input {
 }
 
 section .serch select {
-    background-color: #eacece;
+    background-color:  #f8dbdb;
     padding: .45rem;
     border-radius: 10px;
     border: none;
@@ -48,11 +48,11 @@ section table {
 section table thead th {
     border-radius: 10px 10px 0 0;
     background-color: #d0869d;
+    padding: .5rem 0;
 }
 
 section table tbody {
-    background-color: #eacece;
-
+    background-color: #f8dbdb;
 }
 
 section table tbody td {
@@ -61,7 +61,13 @@ section table tbody td {
 }
 
 i {
-    padding-right: 1rem;
+    padding-right: .5rem;
+}
+
+
+i:hover {
+    text-shadow: 1px 1px 2px rgb(41, 30, 41);
+    color: #d0869d;
 }
 
 button {

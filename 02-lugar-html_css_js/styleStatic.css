@@ -9,11 +9,12 @@ body {
 }
 
 aside {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #d0869d;
     box-shadow: rgb(204, 219, 232) 0 0 0 0px inset, rgba(255, 255, 255, 0.5)0 0 6px 2px inset;
     color: #fdf3f3;
     text-align: center;
+
 }
 
 aside h2 {
@@ -46,6 +47,8 @@ section {
     width: 85rem;
     margin: 0 auto;
 }
+
+
 
 section h1 {
     font-size: 3rem;
