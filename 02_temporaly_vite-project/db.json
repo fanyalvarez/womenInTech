@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "coraline",
+      "lastName": "jones",
+      "password": 1232421
+    },
+    {
+      "id": 2,
+      "name": "Wybie",
+      "lastName": "Lovat",
+      "password": 1232421
+    }
+  ],
+  "lugares": [
+    {
+      "id": 1,
+      "idUser": 1,
+      "nombre": " Uno Nombre NOMBRE",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.",
+      "estado": " UnoEstado",
+      "ciudad": " UnoCiudad",
+      "colonia": " UnoColonia",
+      "calle": " UnoCalle",
+      "numero": 870,
+      "cp": 7192,
+      "like": 20,
+      "dislike": 21
+    },
+    {
+      "id": 2,
+      "idUser": 2,
+      "nombre": "Dos Nombre NOMBRE",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam.",
+      "estado": "DosEstado",
+      "ciudad": "DosCiudad",
+      "colonia": "DosColonia",
+      "calle": "DosCalle",
+      "numero": 870,
+      "cp": 7192,
+      "like": 10,
+      "dislike": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "idUser": 1,
+      "idPlace": 1,
+      "name": "Coraline Jones",
+      "comment": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore autem quibusdam hic laboriosam ex a obcaecati libero enim numquam.",
+      "img": "https://picsum.photos/600"
+    },
+    {
+      "comment": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae labore autem quibusdam hic laboriosam ex a obcaecati libero enim numquam.",
+      "img": "https://picsum.photos/590",
+      "name": "Wybie Lovat",
+      "id": 3
+    }
+  ]
+}
