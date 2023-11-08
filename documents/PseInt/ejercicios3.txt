@@ -1,0 +1,79 @@
+//Desarolla un algoritmo en pseudo código que reciba la velocidad y la distancia que tiene que recorrer un carro 
+//y entrega cuánto tiempo le tomaría recorrer esa distancia
+Algoritmo sin_titulo
+	velocidad = 0
+	distancia = 0
+	tiempo = 0
+	
+	Escribir "Ingresa la distancia a recorrer (km)"
+	Leer distancia
+	Escribir "Ingresa el dato de la velocidad (km/h)"
+	Leer velocidad
+
+//	distancia = velocidad * tiempo
+//	velocidad = distancia / tiempo
+	tiempo = (distancia / velocidad) 
+	Escribir "El tiempo en recorrer la distancia es de " tiempo "Hr"
+	
+FinAlgoritmo
+
+
+
+//Desarrolla un algoritmo en pseudo código que valide si una palabra o frase es palindromo.
+
+Algoritmo sin_titulo
+	palabra = ''
+	Escribir "digite a continuacion la palabra o frase sin espacios"
+	Leer palabra
+//	long = Longitud(palabra)
+	contador = 0
+	comprobacion = 0
+	long_final = Longitud(palabra) - 1
+
+	Para i <- 0 Hasta Longitud(palabra) Con Paso 1 Hacer
+//		Escribir 	SubCadena(palabra,long_final - contador , long_final - contador)
+//		Escribir 	SubCadena(palabra,contador,contador) 
+	
+		Si SubCadena(palabra,contador,contador) == SubCadena(palabra,long_final - contador , long_final - contador) Entonces
+			comprobacion = comprobacion + 1
+//			Escribir "true   ", SubCadena(palabra,contador,contador), SubCadena(palabra,long_final - contador , long_final - contador)
+		SiNo
+			comprobacion = comprobacion + 0
+//			Escribir "false  ", SubCadena(palabra,contador,contador), SubCadena(palabra,long_final - contador , long_final - contador)
+		Fin Si
+
+		contador = contador + 1
+
+FinPara
+	
+//Escribir comprobacion, "comprobacio"
+//Escribir long,  " long"
+Si comprobacion == Longitud(palabra) +1 Entonces
+	Escribir "la palabra si es un palíndromo"
+SiNo
+	Escribir "la palabra no es un palíndromo"
+Fin Si
+	
+//		Escribir "longitud  ", SubCadena(palabra,0,0)
+
+
+
+
+
+
+
+
+
+
+//Desarrolla un algoritmo en pseudo código que reciba un año y te responda si es o no es bisiesto.
+Algoritmo sin_titulo
+	year=0
+	Escribir "Introduce el año"
+	Leer year
+
+	Si  year % 4 == 0  Y year % 100 <> 0  O year % 400 == 0 Entonces
+		Escribir "El año ",year," es año bisiesto"
+	SiNo
+		Escribir "El año ",year," no es año bisiesto"
+	Fin Si
+FinAlgoritmo
