@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Lugares</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside>
+       <a href="../index.html"> <h2 class="Welcome">WELCOME</h2></a>
+        <div class="menu">
+            <a href="../allPlaces/index.html">  <div class="subtitle">Lista General</div></a>
+            <a href="../registerPlace/index.html">  <div class="subtitle">Registrar Lugar</div></a>
+            <a href="../myPlaces/index.html">  <div class="subtitle">Mis lugares</div></a>
+            <a href="../perfil/index.html">  <div class="subtitle">Perfil</div></a>
+        </div>
+    </aside>
+
+    <section>
+        <h1>LISTA GENERAL.</h1>
+
+
+        <div class="serch">
+            <span><i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Nombre"></span>
+            <span><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Direccion"></span>
+            
+            <select type="text" name="likes" id="search">
+                <option value="menorAMayor">Likes de menor a mayor</option>
+                <option value="mayorAMenor">Likes de mayor a menor</option>
+            </select>
+        </div>
+            <table>
+                <thead>
+                    <tr> 
+                        <th class="name">NOMBRE</th>
+                        <th class="desc">DESCRIPCION</th>
+                        <th class="addres">DIRECCION</th>
+                        <th class="safe">ES SEGURO?</th>
+                        <th class="see">CHECAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="name">Nombre sa de cv</td>
+                        <td class="desc">ES un buen lugar para ir a tomar Lorem, ipsum dolor sit amet consectetur adipisicing elit.aspernatur!</td>
+                        <td class="addres">calle direcion # 341341 CDMX</td>
+                        <td class="safe"><i class="fa-regular fa-thumbs-up"></i> <i class="fa-regular fa-thumbs-down"></i>  <span>10</span></td>
+                        <td class="ver"> <a href="../eachPlace/index.html"><button>Ver</button></a></i> </td>
+                    </tr>
+                    <tr>
+                        <td class="name">Nombre sa de cv</td>
+                        <td class="desc">ES un buen lugar para ir a tomar Lorem, ipsum dolor sit amet consectetur adipisicing elit.aspernatur!</td>
+                        <td class="addres">calle direcion # 341341 CDMX</td>
+                        <td class="safe"><i class="fa-regular fa-thumbs-up"></i> <i class="fa-regular fa-thumbs-down"></i> <span>10</span></td>
+                        <td class="ver"> <a href="../eachPlace/index.html"><button>Ver</button></a></i> </td>
+                    </tr>
+                    <tr>
+                        <td class="name">Nombre sa de cv</td>
+                        <td class="desc">ES un buen lugar para ir a tomar Lorem, ipsum dolor sit amet consectetur adipisicing elit.aspernatur!</td>
+                        <td class="addres">calle direcion # 341341 CDMX</td>
+                        <td class="safe"><i class="fa-regular fa-thumbs-up"></i> <i class="fa-regular fa-thumbs-down"></i> <span>10</span></td>
+                        <td class="ver"> <a href="../eachPlace/index.html"><button>Ver</button></a></i> </td>
+                    </tr>
+
+
+
+                </tbody>
+            </table>  
+    </section>
+
+</body>
+
+</html>

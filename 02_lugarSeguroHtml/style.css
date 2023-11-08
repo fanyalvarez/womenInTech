@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #d0869d; */
+    background: rgb(208, 134, 157);
+    background: radial-gradient(circle, rgba(208, 134, 157, 1) 58%, rgba(234, 206, 206, 1) 100%);
+    margin: 0;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+.titleMain {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+#container {
+    background-color: #eacece;
+    height: 480px;
+    max-width: 758px;
+    overflow: hidden;
+    position: relative;
+    top: 5vw;
+    display: flex;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    text-align: center;
+}
+
+.img {
+    background-image: url(./img/Picsart_23-09-27_15-21-43-737.jpg);
+    opacity: .6;
+    background-size: cover;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img .btn {
+    opacity: 1;
+}
+
+
+.form {
+    width: 25rem;
+    padding-bottom: .2rem;
+
+}
+
+form {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+input {
+    background-color: rgb(245, 225, 225);
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 0.9rem;
+    margin: 1rem 0;
+    width: 70%;
+    box-shadow: inset 2px 2px 4px #f1e0e0, inset -2px -2px 4px #d4b5b5;
+    outline: none;
+}
+
+.btn {
+    background-color: #d0869d;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    width: 12rem;
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* .form .btn{
+    margin-top: 1rem;
+} */
